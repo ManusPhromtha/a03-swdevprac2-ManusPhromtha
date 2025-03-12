@@ -5,14 +5,15 @@ export default function Productcard() {
     return (
         <div className={styles.card}>
             <div className={styles.cardimg}>
-                <Image src={'/img/car1.jpg'}
+                <Image src={'/img/fireworks.jpg'}
                 alt='Product picture'
                 fill={true}
                 objectFit='cover'/>
 
             </div>
             <div className={styles.cardtext}>
-                Car 1
+                <h4>Firework Festival</h4>
+                Celebration of spectacular pyrotechnic displays.
             </div>
         </div>
     );
